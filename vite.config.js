@@ -7,6 +7,7 @@ export default defineConfig({
         host: true,
         port: 5173
     },
+    base: '/public/build/',
     plugins: [
         laravel({
             input: 'resources/js/app.js',
