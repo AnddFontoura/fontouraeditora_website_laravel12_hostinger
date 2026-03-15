@@ -13,14 +13,14 @@ class Publication extends Model
   use SoftDeletes;
 
   protected $fillable = [
-        'category',
-        'name',
-        'isbn',
-        'author',
-        'description',
-        'value',
-      'link',
-      'image_path'
+    'category',
+    'name',
+    'isbn',
+    'author',
+    'description',
+    'value',
+    'link',
+    'image_path'
   ];
 
   protected $appends = [
