@@ -5,8 +5,8 @@
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div class="flex h-10 items-center justify-between text-sm">
                     <div class="hidden sm:flex items-center gap-4">
-                        <a href="/" class="hover:underline underline-offset-4">Sobre a Editora</a>
-                        <a href="/contact" class="hover:underline underline-offset-4">Fale Conosco</a>
+                        <a href="./" class="hover:underline underline-offset-4">Sobre a Editora</a>
+                        <a href="./contact" class="hover:underline underline-offset-4">Fale Conosco</a>
                     </div>
 
                     <div class="flex items-center gap-3">
@@ -49,10 +49,10 @@
         <header class="border-b border-slate-200">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div class="flex h-16 items-center justify-between gap-4">
-                    <a href="/" class="flex items-center gap-3">
+                    <a href="./" class="flex items-center gap-3">
                         <img
                             class="h-9 w-auto"
-                            src="/public/img/logo_fontoura.png"
+                            src="public/img/logo_fontoura.png"
                             alt="Fontoura Editora"
                         >
                         <span class="sr-only">Fontoura Editora</span>
@@ -68,19 +68,19 @@
                             Periódicos
                         </a>
                         <a
-                            href="/publications/free"
+                            href="./publications/free"
                             class="rounded-md px-3 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-100"
                         >
                             Livros Grátis
                         </a>
                         <a
-                            href="/publications/epub"
+                            href="./publications/epub"
                             class="rounded-md px-3 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-100"
                         >
                             EPUBs
                         </a>
                         <a
-                            href="/publications/press"
+                            href="./publications/press"
                             class="rounded-md px-3 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-100"
                         >
                             Livros Físicos
@@ -101,16 +101,16 @@
                 <!-- Mobile nav -->
                 <div v-if="mobileOpen" class="lg:hidden pb-4">
                     <div class="grid gap-2">
-                        <a href="/publications/periodicals" class="rounded-md px-3 py-2 text-sm font-semibold hover:bg-slate-100">
+                        <a href="./publications/periodicals" class="rounded-md px-3 py-2 text-sm font-semibold hover:bg-slate-100">
                             Periódicos
                         </a>
-                        <a href="/publications/free" class="rounded-md px-3 py-2 text-sm font-semibold hover:bg-slate-100">
+                        <a href="./publications/free" class="rounded-md px-3 py-2 text-sm font-semibold hover:bg-slate-100">
                             Livros Grátis
                         </a>
-                        <a href="/publications/epub" class="rounded-md px-3 py-2 text-sm font-semibold hover:bg-slate-100">
+                        <a href="./publications/epub" class="rounded-md px-3 py-2 text-sm font-semibold hover:bg-slate-100">
                             EPUBs
                         </a>
-                        <a href="/publications/printed" class="rounded-md px-3 py-2 text-sm font-semibold hover:bg-slate-100">
+                        <a href="./publications/printed" class="rounded-md px-3 py-2 text-sm font-semibold hover:bg-slate-100">
                             Livros Físicos
                         </a>
                     </div>

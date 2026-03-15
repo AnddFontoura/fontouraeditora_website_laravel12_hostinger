@@ -16,7 +16,7 @@
 
             <div class="mt-6 flex flex-col gap-3 sm:flex-row">
               <a
-                  href="/publications/free"
+                  href="./publications/free"
                   class="inline-flex items-center justify-center rounded-lg bg-fontoura px-5 py-3 text-sm font-bold text-white hover:bg-fontoura/90 transition"
               >
                 Ver Livros Grátis
@@ -33,7 +33,7 @@
 
           <div class="lg:col-span-5">
             <div class="rounded-2xl border border-slate-200 bg-slate-50 p-6">
-              <img src="/public/img/logo_fontoura.png" alt="Logo Fontoura"/>
+              <img src="public/img/logo_fontoura.png" alt="Logo Fontoura"/>
             </div>
           </div>
         </div>
@@ -50,11 +50,11 @@
             <div class="text-sm font-bold text-slate-900 group-hover:text-fontoura">Periódicos</div>
             <div class="mt-1 text-sm text-slate-600">Acesse volumes e edições.</div>
           </a>
-          <a href="/publications/free" class="group rounded-xl border border-slate-200 bg-white p-5 hover:shadow-md transition">
+          <a href="./publications/free" class="group rounded-xl border border-slate-200 bg-white p-5 hover:shadow-md transition">
             <div class="text-sm font-bold text-slate-900 group-hover:text-fontoura">Livros Grátis</div>
             <div class="mt-1 text-sm text-slate-600">Baixe títulos disponíveis.</div>
           </a>
-          <a href="/publications/epubs" class="group rounded-xl border border-slate-200 bg-white p-5 hover:shadow-md transition">
+          <a href="./publications/epubs" class="group rounded-xl border border-slate-200 bg-white p-5 hover:shadow-md transition">
             <div class="text-sm font-bold text-slate-900 group-hover:text-fontoura">EPUBs</div>
             <div class="mt-1 text-sm text-slate-600">Leitura digital.</div>
           </a>
