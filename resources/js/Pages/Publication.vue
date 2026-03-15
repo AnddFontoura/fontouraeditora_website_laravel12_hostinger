@@ -43,7 +43,7 @@
 
                     <div class="shrink-0 flex flex-wrap gap-2">
                         <a
-                            href="/publications/FREE"
+                            href="./publications/FREE"
                             class="inline-flex items-center rounded-lg border border-slate-200 bg-white px-3.5 py-2 text-sm font-extrabold text-slate-700 hover:bg-slate-50 transition"
                         >
                             Ver lista

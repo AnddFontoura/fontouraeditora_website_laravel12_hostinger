@@ -87,7 +87,7 @@
 
                             <div class="mt-3 flex flex-wrap items-center gap-3">
                                 <a
-                                    :href="`/publication/${pub.id}`"
+                                    :href="`./publication/${pub.id}`"
                                     class="inline-flex items-center rounded-lg bg-fontoura px-3.5 py-2 text-sm font-bold text-white hover:bg-fontoura/90 transition"
                                 >
                                     Ver detalhes
