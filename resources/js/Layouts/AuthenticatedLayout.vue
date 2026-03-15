@@ -6,8 +6,12 @@ import DropdownLink from '@/Components/DropdownLink.vue';
 import NavLink from '@/Components/NavLink.vue';
 import ResponsiveNavLink from '@/Components/ResponsiveNavLink.vue';
 import { Link } from '@inertiajs/vue3';
+import { usePage } from '@inertiajs/vue3'
 
 const showingNavigationDropdown = ref(false);
+const page = usePage()
+const roles = page.props.auth?.roles || []
+
 </script>
 
 <template>
@@ -39,6 +43,14 @@ const showingNavigationDropdown = ref(false);
                                 >
                                     Dashboard
                                 </NavLink>
+
+                              <NavLink
+                                  v-if="roles.includes('admin')"
+                                  :href="route('control-panel.publications.index')"
+                                  :active="route().current('control-panel.publications.index')"
+                              >
+                                Publicações
+                              </NavLink>
                             </div>
                         </div>
 
