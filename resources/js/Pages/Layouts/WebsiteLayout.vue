@@ -129,7 +129,7 @@
                 <div class="grid gap-8 md:grid-cols-4">
                     <div>
                         <div class="flex items-center gap-3">
-                            <img class="h-8 w-auto" src="/public/img/logo_fontoura.png" alt="Fontoura Editora">
+                            <img class="h-8 w-auto" src="public/img/logo_fontoura.png" alt="Fontoura Editora">
                         </div>
                         <p class="mt-3 text-sm text-slate-600">
                             Editora especializada em publicações acadêmicas e científicas.
@@ -189,7 +189,7 @@
                             <li>
                                 <a
                                     class="text-slate-600 hover:text-slate-900"
-                                    href="mailto:paula@editorafontoura.com.br"
+                                    href="mailto:atendimento@editorafontoura.com.br"
                                     target="_blank"
                                 >
                                     Email

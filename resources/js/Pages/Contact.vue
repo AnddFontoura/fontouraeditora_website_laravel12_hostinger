@@ -47,7 +47,7 @@
 
         <!-- E-mail -->
         <a
-            href="mailto:paula@editorafontoura.com.br"
+            href="mailto:atendimento@editorafontoura.com.br"
             class="group block rounded-2xl border border-blue-200 bg-blue-50 p-5 hover:bg-blue-100/60 transition"
         >
           <div class="flex items-start gap-4">
@@ -63,7 +63,7 @@
                 E-mail
               </h2>
               <p class="mt-1 break-words text-sm text-blue-950/80">
-                paula@editorafontoura.com.br
+                atendimento@editorafontoura.com.br
               </p>
               <p class="mt-3 inline-flex text-sm font-bold text-blue-900 group-hover:underline underline-offset-4">
                 Enviar e-mail →
@@ -76,7 +76,7 @@
       <div class="mt-8 rounded-2xl border border-slate-200 bg-white p-5">
         <h3 class="text-sm font-extrabold text-slate-900">Observação</h3>
         <p class="mt-1 text-sm text-slate-600">
-          Horários de atendimento de 09h até 18h.
+          Horários de atendimento de 09h até 16h.
         </p>
       </div>
     </div>
