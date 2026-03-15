@@ -139,16 +139,16 @@
                     <div>
                         <h3 class="text-sm font-bold text-slate-800">Navegação</h3>
                         <ul class="mt-3 space-y-2 text-sm">
-                            <li><a class="text-slate-600 hover:text-slate-900" href="/">Sobre a Editora</a></li>
-                            <li><a class="text-slate-600 hover:text-slate-900" href="/contact">Fale Conosco</a></li>
-                            <li><a class="text-slate-600 hover:text-slate-900" href="/publications/free">Livros Grátis</a></li>
+                            <li><a class="text-slate-600 hover:text-slate-900" href="./">Sobre a Editora</a></li>
+                            <li><a class="text-slate-600 hover:text-slate-900" href="./contact">Fale Conosco</a></li>
+                            <li><a class="text-slate-600 hover:text-slate-900" href="./publications/free">Livros Grátis</a></li>
                         </ul>
                     </div>
 
                     <div>
                         <h3 class="text-sm font-bold text-slate-800">Atalhos</h3>
                         <ul class="mt-3 space-y-2 text-sm">
-                            <li><a class="text-slate-600 hover:text-slate-900" href="/">Homepage</a></li>
+                            <li><a class="text-slate-600 hover:text-slate-900" href="./">Homepage</a></li>
                             <li><a class="text-slate-600 hover:text-slate-900" href="http://fontouraeditora.com.br/periodico" target="_blank">Periódico</a></li>
                         </ul>
                     </div>
