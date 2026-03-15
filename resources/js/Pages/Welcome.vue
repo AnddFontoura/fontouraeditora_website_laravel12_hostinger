@@ -58,7 +58,7 @@
             <div class="text-sm font-bold text-slate-900 group-hover:text-fontoura">EPUBs</div>
             <div class="mt-1 text-sm text-slate-600">Leitura digital.</div>
           </a>
-          <a href="/publications/press" class="group rounded-xl border border-slate-200 bg-white p-5 hover:shadow-md transition">
+          <a href="./publications/press" class="group rounded-xl border border-slate-200 bg-white p-5 hover:shadow-md transition">
             <div class="text-sm font-bold text-slate-900 group-hover:text-fontoura">Livros Físicos</div>
             <div class="mt-1 text-sm text-slate-600">Catálogo impresso.</div>
           </a>
