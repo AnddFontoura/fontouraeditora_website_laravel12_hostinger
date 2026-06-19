@@ -33,7 +33,7 @@ Route::middleware('auth')->group(function () {
                 Route::get('/create', [PublicationsController::class, 'create'])->name('create');
                 Route::get('/edit/{id}', [PublicationsController::class, 'create'])->name('edit');
                 Route::post('/save', [PublicationsController::class, 'saveOrUpdate'])->name('save');
-                Route::put('/update/{id}', [PublicationsController::class, 'saveOrUpdate'])->name('update');
+                Route::post('/update/{id}', [PublicationsController::class, 'saveOrUpdate'])->name('update');
                 Route::get('/show/{id}', [PublicationsController::class, 'show'])->name('show');
                 Route::delete('/delete/{id}', [PublicationsController::class, 'delete'])->name('delete');
             });
