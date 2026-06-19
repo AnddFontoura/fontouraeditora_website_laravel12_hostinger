@@ -29,7 +29,7 @@ class PublicationsController extends Controller
         ]);
     }
 
-    public function create(int $id = null): Response
+    public function create(?int $id = null): Response
     {
         $publication = null;
 
