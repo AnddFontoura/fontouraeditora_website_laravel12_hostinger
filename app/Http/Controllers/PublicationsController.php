@@ -52,13 +52,14 @@ class PublicationsController extends Controller
         }
 
         if ($id !== null) {
-            // remove imagem antiga se trocar
             if (isset($data['image_path'])) {
                 $current = $this->publicationRepository->getById($id);
                 if (!empty($current->image_path)) {
                     Storage::disk('public')->delete($current->image_path);
                 }
             }
+
+            unset($data['image']);
 
             $this->publicationRepository->updateById($id, $data);
 

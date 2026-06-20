@@ -14,13 +14,14 @@ class PublicationCreateOrUpdateRequest extends FormRequest
     public function rules(): array
     {
         return [
+            'category' => 'required|string|max:255',
             'name' => 'required|string|max:255',
-            'release_id' => 'required|exists:releases,id',
-            'authors' => 'required|string|min:1',
-            'resume' => 'required|string|min:1',
-            'abstract' => 'required|string|min:1',
-            'keywords' => 'required|string|min:1',
-            'pdf' => 'required|mimes:pdf',
+            'isbn' => 'required|string|max:255',
+            'author' => 'required|string|max:255',
+            'description' => 'required|string',
+            'value' => 'required|numeric|min:0',
+            'link' => 'nullable|url',
+            'image' => 'nullable|image|max:2048',
         ];
     }
 }
